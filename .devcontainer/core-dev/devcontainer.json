@@ -128,5 +128,11 @@
     "groksrc.ruby",
     "hoovercj.ruby-linter",
     "miguel-savignano.ruby-symbols"
-  ]
+  ],
+
+  "features": {
+    "ghcr.io/devcontainers/features/sshd:1": {
+        "version": "latest"
+    }
+  }
 }
