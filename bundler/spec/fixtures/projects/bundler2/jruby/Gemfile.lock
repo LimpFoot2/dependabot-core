@@ -1,13 +1,15 @@
 GEM
   remote: https://rubygems.org/
   specs:
-    json (1.4.3-java)
+    json (2.6.3)
+    json (2.6.3-java)
 
 PLATFORMS
   java
+  ruby
 
 DEPENDENCIES
-  json
+  json (>= 2.3.0)
 
 BUNDLED WITH
-   2.2.0
+   2.1.4
