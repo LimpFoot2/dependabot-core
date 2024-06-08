@@ -1,2 +1,5 @@
 flask-featureflags==0.5 \
     --hash=sha256:dbe86c9697bf7cc76e44d6a5641726a414234fea466cb0e5df8352059333e418
+flask>=2.2.5 # not directly required, pinned by Snyk to avoid a vulnerability
+jinja2>=3.1.4 # not directly required, pinned by Snyk to avoid a vulnerability
+werkzeug>=2.2.3 # not directly required, pinned by Snyk to avoid a vulnerability
